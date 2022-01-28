@@ -1,0 +1,21 @@
+{
+  "name": "express-chinese-restaurant",
+  "version": "1.0.0",
+  "description": "Chinese Restaurant Backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Jiahang Li, Stephan Randle, Chris Basham",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "interfax": "^0.8.1",
+    "mongoose": "^6.1.8",
+    "morgan": "^1.10.0"
+  }
+}
