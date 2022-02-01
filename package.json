@@ -9,6 +9,7 @@
 	"author": "Jiahang Li, Stephan Randle, Chris Basham",
 	"license": "ISC",
 	"dependencies": {
+		"cors": "^2.8.5",
 		"dotenv": "^14.3.2",
 		"express": "^4.17.2",
 		"mongoose": "^6.1.8",

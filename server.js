@@ -2,6 +2,7 @@
 const mongoose = require('mongoose')
 const express = require('express')
 require('dotenv').config()
+const cors = require('cors');
 
 const notesRouter = require('./controllers/notesRouter')
 
@@ -17,6 +18,7 @@ mongoose.connection
 // Middleware
 app.use(express.urlencoded({ extended: false }))
 app.use(express.json())
+app.use(cors());
 
 app.use('/notes', notesRouter)
 
