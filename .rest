@@ -1,0 +1,26 @@
+POST http://localhost:7070/notes/
+Content-Type: application/json
+
+{
+    "title":"Test Note",
+    "content":"testing",
+    "author":"Stephan Randle",
+    "date":"06/19/21"
+}
+
+###
+PUT http://localhost:7070/notes/61f95f3e2eaf96ed27b923a8
+Content-Type: application/json
+
+{
+    "title":"Different Note",
+    "content":"Differenting",
+    "author":"Stephan Randle",
+    "date":"06/19/22"
+}
+
+###
+GET http://localhost:7070/notes
+
+### 
+DELETE  http://localhost:7070/notes/61f95ed834fbaebc3dc91fcc
