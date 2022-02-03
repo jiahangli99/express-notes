@@ -4,7 +4,7 @@
 
 -   [Click Here]() to see the deployed link
 
--   [Click Here](https://github.com/stephansama/reactive-client) to see the client
+-   [Click Here](https://github.com/jiahangli99/React-Notes/) to see the client
 
 **Contributors:**
 
