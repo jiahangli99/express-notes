@@ -30,7 +30,7 @@ notesRouter.put('/:id', (req, res) => {
 notesRouter.post('/', (req, res) => {
 	Notes.create(req.body, (error, note) => {
 		console.log(req.body)
-		res.sendStatus(200)
+		res.json(note)
 	})
 })
 
